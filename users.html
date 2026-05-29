@@ -56,7 +56,7 @@
     <section id="top_actions_section" class="row">
         <!-- add button ------start------ -->
 
-        <div class="p-r-10 p-l-10 p-t-30 col s12 m3 l4">
+        <div class="p-r-10 p-l-10 p-t-30 col s12 m3 l2">
             <button class="waves-effect waves-light  btn blue darken-2 p-r-30 p-l-30 rounded_pill flex-c w-full">
                 <li class=" material-icons m-r-5 p-t-6">add</li>
                 Add User
@@ -75,13 +75,16 @@
             </div>
         </div>
 
+        <div class="col l2 hide-on-med-and-down"></div>
 
 
     </section>
 
      <!-- User list section --------start------- -->
-    <section class="user_list-section m-b-0">
-        <ul class="collapsible">
+
+                <!-- list users on mobile -------start------ -->
+             <section class="user_list-section m-b-0">
+                   <ul class="collapsible hide-on-med-and-up">
             <li class="user_list_item">
                 <div class="collapsible-header">
                 <i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
@@ -188,10 +191,79 @@
                     </div>
                 </div>
             </li>
-        </ul>
-    </section>
+                  </ul>
+             </section>
 
 
+                <!-- list users on desktap -------start------ -->
+
+             <div class="hide-on-med-and-down show-on-medium-and-up">
+                <table class="striped centered highlight">
+
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Username</th>
+                            <th>Email</th>
+                            <th>action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>ALi shorvazi</td>
+                            <td>Alish</td>
+                            <td>Ali@gmail.com</td>
+                            <td>
+                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>reza Aria</td>
+                            <td>reza</td>
+                            <td>Aria@gmail.com</td>
+                            <td>
+                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Omid Akbari</td>
+                            <td>OmidAk</td>
+                            <td>Omid@gmail.com</td>
+                            <td>
+                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>hamid kiani</td>
+                            <td>Hamidk</td>
+                            <td>Hamid@gmail.com</td>
+                            <td>
+                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Amir Amiri</td>
+                            <td>Amiri</td>
+                            <td>Amir@gmail.com</td>
+                            <td>
+                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
 
     <!-- content section ---------start------ -->
 
