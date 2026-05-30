@@ -3,6 +3,16 @@
         display: flex !important;
         align-items: center;
     }
+
+
+}
+
+@media(max-width:600px){
+  .container{
+    width: 100% !important;
+  }
+
+
 }
 
 
@@ -23,3 +33,4 @@ table.highlight > tbody > tr {
 table.highlight > tbody > tr:hover {
   background-color: #2b7cbe94 ;
 }
+
