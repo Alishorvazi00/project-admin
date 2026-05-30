@@ -56,8 +56,8 @@
     <section id="top_actions_section" class="row container">
         <!-- add button ------start------ -->
 
-        <div class="p-r-10 p-l-10 p-t-30 col s12 m3 l2">
-            <button class="waves-effect waves-light  btn blue darken-2 p-r-30 p-l-30 rounded_pill flex-c w-full">
+        <div class="p-r-10 p-l-10 p-t-20 col s12 m4 l3 pos-relative top-10">
+            <button id="add_user_button" class="waves-effect waves-light  btn blue darken-2 p-r-30 p-l-30 rounded_pill flex-c w-full ">
                 <li class=" material-icons m-r-5 p-t-6">add</li>
                 Add User
             </button>
@@ -65,7 +65,7 @@
 
         <!-- search button ------start------ -->
 
-        <div class="row col s12 m9 l8 m-b-0">
+        <div class="row col s12 m7 l7 m-b-0">
             <div class="input-field col s12">
                 <input id="search" type="text" class="validate">
                 <label for="search">
@@ -80,12 +80,13 @@
 
     </section>
 
-             <section class="user_list-section m-b-0">
-                   <ul class="collapsible hide-on-med-and-up">
+    <section class="user_list-section m-b-0">
+        <ul class="collapsible hide-on-med-and-up">
             <li class="user_list_item">
                 <div class="collapsible-header">
-                <i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
-                Ali shorvazi
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    Ali shorvazi
                 </div>
                 <div class="collapsible-body">
                     <div class="p-all-5">
@@ -106,8 +107,9 @@
 
             <li class="user_list_item">
                 <div class="collapsible-header">
-                <i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
-                reza Aria
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    reza Aria
                 </div>
                 <div class="collapsible-body">
                     <div class="p-all-5">
@@ -127,8 +129,9 @@
             </li>
             <li class="user_list_item">
                 <div class="collapsible-header">
-                <i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
-                Omid Akbari
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    Omid Akbari
                 </div>
                 <div class="collapsible-body">
                     <div class="p-all-5">
@@ -148,8 +151,9 @@
             </li>
             <li class="user_list_item">
                 <div class="collapsible-header">
-                <i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
-                hamid kiani
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    hamid kiani
                 </div>
                 <div class="collapsible-body">
                     <div class="p-all-5">
@@ -169,8 +173,9 @@
             </li>
             <li class="user_list_item">
                 <div class="collapsible-header">
-                <i class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
-                Amir Amiri
+                    <i
+                        class="material-icons blue-text darken-2 user_list_arrow_icon trans-0-2">arrow_drop_down_circle</i>
+                    Amir Amiri
                 </div>
                 <div class="collapsible-body">
                     <div class="p-all-5">
@@ -188,102 +193,134 @@
                     </div>
                 </div>
             </li>
-                  </ul>
+        </ul>
 
-                    <div class="hide-on-med-and-down show-on-medium-and-up container">
-                <table class="striped centered highlight">
+        <div class="hide-on-med-and-down show-on-medium-and-up container">
+            <table class="striped centered highlight">
 
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Name</th>
-                            <th>Username</th>
-                            <th>Email</th>
-                            <th>action</th>
-                        </tr>
-                    </thead>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>action</th>
+                    </tr>
+                </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>ALi shorvazi</td>
-                            <td>Alish</td>
-                            <td>Ali@gmail.com</td>
-                            <td>
-                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
-                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>reza Aria</td>
-                            <td>reza</td>
-                            <td>Aria@gmail.com</td>
-                            <td>
-                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
-                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Omid Akbari</td>
-                            <td>OmidAk</td>
-                            <td>Omid@gmail.com</td>
-                            <td>
-                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
-                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>hamid kiani</td>
-                            <td>Hamidk</td>
-                            <td>Hamid@gmail.com</td>
-                            <td>
-                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
-                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Amir Amiri</td>
-                            <td>Amiri</td>
-                            <td>Amir@gmail.com</td>
-                            <td>
-                                <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
-                                <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                    </div>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ALi shorvazi</td>
+                        <td>Alish</td>
+                        <td>Ali@gmail.com</td>
+                        <td>
+                            <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                            <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>reza Aria</td>
+                        <td>reza</td>
+                        <td>Aria@gmail.com</td>
+                        <td>
+                            <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                            <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Omid Akbari</td>
+                        <td>OmidAk</td>
+                        <td>Omid@gmail.com</td>
+                        <td>
+                            <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                            <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>hamid kiani</td>
+                        <td>Hamidk</td>
+                        <td>Hamid@gmail.com</td>
+                        <td>
+                            <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                            <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Amir Amiri</td>
+                        <td>Amiri</td>
+                        <td>Amir@gmail.com</td>
+                        <td>
+                            <i class="material-icons red-text m-l-5 m-r-5">delete_forever</i>
+                            <i class="material-icons orange-text darken-3 m-l-5 m-r-5">edit</i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-                    <div class="pagination-container container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed bottom-0 right-0 left-0 z-depth-4 rounded_top_30">
-                        <div class="pagination-item-counts flex-l p-l-10 flex-l-m">
-                            showing
-                            <span class="m-l-5 m-r-5 max-w-50">
-                                <input type="number" class="blue-text darken-2 no-border center-align m-b-0 " value="10">
-                            </span>
-                            of
-                            <span class="blue-text darken-2 m-l-5 m-r-5">100</span>
-                        </div>
-
-
-                        <div class="pagination-buttons">
-                          <i class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-0 p-t-1 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
-                          <i class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-0 p-t-1 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
-                       </div>
-                    </div>
+        <div
+            class="pagination-container container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m pos-fixed bottom-0 right-0 left-0 z-depth-4 rounded_top_30">
+            <div class="pagination-item-counts flex-l p-l-10 flex-l-m">
+                showing
+                <span class="m-l-5 m-r-5 max-w-50">
+                    <input type="number" class="blue-text darken-2 no-border center-align m-b-0 " value="10">
+                </span>
+                of
+                <span class="blue-text darken-2 m-l-5 m-r-5">100</span>
+            </div>
 
 
-                    
-
-             </section>
+            <div class="pagination-buttons">
+                <i
+                    class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-0 p-t-1 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
+                <i
+                    class="material-icons blue darken-2 m-l-5 m-r-5 p-l-5 p-r-5 p-t-0 p-t-1 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
+            </div>
+        </div>
 
 
 
 
+    </section>
 
+    <div class="add_user_modal_back dis-none"></div>
+    <div class="add_user_modal container rounded_top_30 trans-1-1 ">
+        <div class="row p-t-10 p-b-10 p-r-40 p-l-40 center-on-small-only">
+            <h5>
+                <i class="material-icons m-r-10 m-l-10 pos-relative to-4  ">person_add</i>
+                Add User
+            </h5>
+
+
+            <form>
+                <div class="input-field col s12 ">
+                    <input type="text" id="name" class="validate ">
+                    <label for="name">Name:</label>
+                </div>
+                <div class="input-field col s12 ">
+                    <input type="text" id="username" class="validate ">
+                    <label for="username">Username:</label>
+                </div>
+                <div class="input-field col s12 ">
+                    <input type="text" id="email" class="validate ">
+                    <label for="email">Email:</label>
+                </div>
+
+
+                <button type="submit" class="waves-effect waves-light btn blue darken-1 m-t-20 m-b-10 w-full max-w-250 rounded_pill">
+                    submit
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- content section ---------endّ------ -->
 
 
     <script src="/assets/materialize/js/materialize.min.js"></script>

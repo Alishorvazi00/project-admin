@@ -2453,6 +2453,12 @@
 /*[ Transition ]
 -----------------------------------------------------------
 */
+.trans-1-1 {
+	-webkit-transition: all 0.9s;
+    -o-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    transition: all 0.9s;
+}
 .trans-0-1 {
 	-webkit-transition: all 0.1s;
     -o-transition: all 0.1s;
